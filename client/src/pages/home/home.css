@@ -1,0 +1,15 @@
+.home {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1;
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+p {
+  color: #fff;
+  margin-bottom: 35px;
+}

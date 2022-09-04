@@ -1,0 +1,61 @@
+.ol-cards * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ol-cards {
+  --flapWidth: 2rem;
+  --flapHeigth: 1rem;
+  --iconSize: 3rem;
+  --numberSize: 3rem;
+  --colGapSize: 2rem;
+  width: min(100%, 40rem);
+  margin-inline: auto;
+  margin-bottom: -25px;
+  display: grid;
+  gap: 2rem;
+  padding-inline-start: var(--flapWidth);
+  counter-reset: ol-cards-count;
+  list-style: none;
+}
+
+.deleteIcon {
+  position: relative;
+  left: 810px;
+  bottom: 70px;
+}
+
+.editIcon {
+  position: relative;
+  left: 810px;
+  bottom: 70px;
+}
+
+.cardDisplay .dateIcon {
+  margin-left: 40px;
+}
+.cardDisplay {
+  min-width: 275;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: flex-start;
+}
+
+.cardContent {
+  margin: 20px;
+}
+
+@media (max-width: 40rem) {
+  .ol-cards {
+    --flapWidth: 1rem;
+    --flapHeigth: 0.5rem;
+    --numberSize: 2rem;
+    --colGapSize: 1rem;
+  }
+}
+
+.ol-cards :hover {
+  background-color: #cfd2cf;
+}
