@@ -32,7 +32,7 @@ export default function Chart({ votes }) {
             <h2>Average Vote </h2>
           </CardContent>
           <CardContent>
-            <h2 style={{ fontSize: 45, color: "grey" }}>{findAvg} </h2>
+            <h2 style={{ fontSize: 45, color: "grey" }}>70</h2>
           </CardContent>
         </Card>
       </Box>
